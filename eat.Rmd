@@ -1,6 +1,6 @@
 ---
 title: "Eating Out"
-author: "your name here"
+author: "Alexis Velasco"
 output: 
   html_document:
     number_sections: true
@@ -32,10 +32,13 @@ mydata <- select(GSS,race,age,eatout)
 mydata <- na.omit(mydata)
 ```
 
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
 
+```
 
-
-
+This chart shows that white people eat out more often than black and other people. Where black people and other races seem to eat out as much as one another as well and not eating out also seem to be close in comparison. However it seems black people eat out less than the other races. 
 
 
 
