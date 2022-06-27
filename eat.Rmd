@@ -121,7 +121,7 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 
 ```
 ```{r}
-fisherXY(mydata$race,mydata$eatout)
+fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
 ```
 
 
