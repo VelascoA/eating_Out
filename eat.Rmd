@@ -125,5 +125,5 @@ fisherXY(mydata$race,mydata$eatout)
 ```
 
 
-
+The fisherXY test shows that the white race is different than the two other categories of race when it comes to eating out. Black and the other race categories are the same or have little to no difference between each other. 
 
