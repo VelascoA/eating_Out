@@ -46,3 +46,9 @@ rowPerc(table1)
 colPerc(table1)
 ```
 The data shows the white category eat out most with above 80% saying yes and about 17% saying they do not eat out. The black category does not eat out as often as the other two races with only slightly above 68% sayingin they do and 31% saying they do not eat out.Other falls inbetween with a little over 77% who eat out and 22% who do not.
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
