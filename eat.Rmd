@@ -124,5 +124,5 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
 ```
 
-The fisherXY test shows that the white race is different than the two other categories of race when it comes to eating out. Black and the other race categories are the same or have little to no difference between each other. We can be sure that there is not much of a difference between white and other because of the p value of black against other is 0.2815 and white againstother having a p value of 0.3543. The values being so small is what confirms that white and other have a fraction of a difference between one another. 
+The fisherXY test shows that the white race is different than the two other categories of race when it comes to eating out. Black and the other race categories are the same or have little to no difference between each other. We can be sure that there is not much of a difference between white and other because of the p value of black against other with th p value of 0.2815 and white against other having a p value of 0.3543. The values being so small is what confirms that white and other have a fraction of a difference between one another when it comes to eating out. 
 
